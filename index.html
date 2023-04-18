@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<title>Home</title>
+	<!--Lindsey Stephens, CSCE 102 section 14, February 25, 2023-->
+</head>
+<body>
+	<div id="content">
+		<header>
+			<h1>Lindsey Stephens</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main>
+            <img src="images/sunset.png" alt="sunset-image" id="image-one" data-num="1">
+            <div class="content">
+                <section id="about-me">
+                    <h2><i>About Me</i></h2>
+                    <p>My name is Lindsey Stephens and I am a rising senior at the University of South Carolina. My major is in Biological Sciences with a minor in Media arts. Before I came to college, I was a kid, growing up in a military family. Being in a military family meant that I moved very often. From the time I was a baby to the time I graduated high school, I was always moving. I’ve had the opportunity to live in several states in the US and even places overseas. Some of the places I have lived include Arizona, Kentucky, Maryland, Florida, Kansas, New Mexico, South Carolina, Virginia, and South Korea. I have had the privilege of experiencing many new things and meeting many new people throughout my years of moving and it is truly an experience that has shaped me and made me who I am.</p>
+                    <p id="firstMessage" class="hidden"> Aside from the many places that I have lived, there are many things that have made me who I am, primarily my likes and dislikes. Things I like include my dog, my hobbies, my family and friends, and getting back to nature. There are not many things I dislike, except being unhappy! My family and friends are both very important to me because they support me in my ambitions and dreams, and of course are always there to have fun with me too. Overall, I’m a happy person, who loves to travel, loves her friends, and loves to have a little fun!</p>
+                    <a href="#" id="readMe" onclick="showMore()">See More...</a>
+                </section>
+                <section id="future">
+                    <h2><i>My Future Career Plans</i></h2>
+                    <p>For my future career, I have a very specific goal and plan and that is becoming a doctor. Ever since I was a little girl, becoming a doctor is all I have wanted to do and I am so very excited to be in college realizing my dreams. As a STEM major, I have been preparing to become a doctor since I first started college. I have undergone a rigorous science curriculum, participated in many extracurriculars, and volunteered many places all in preparation for applying to medical school. There are many reasons why I want to be a doctor, but the main ones are to build up families and to be an integral part of my community, knowing that I am making a difference in the lives of those around me.</p>
+                    <p id="myMessage" class="hidden">My dream role as a doctor would be to work with parents and their infants in a fast paced hospital setting. I want to be able to take care of babies and their mothers and truly impact their lives. In addition to being a doctor, I plan to use my media arts minor to do creative work on the side. I have worked on creative projects throughout college, and would love to be able to continue that work after I graduate and start my career as a doctor. With my background in science as well as media art, I think it would be great to make educational content for all ages. In short, my future career plans are to make a positive impact on my community.</p>
+                    <a href="#" id="expandMe" onclick="seeMore()">See More...</a>
+                </section>
+                <section class="video">
+                    <h2 class="video"><i>What I Learned from Computer Science</i></h2>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OI_u9CLo-KE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </section>
+            </div>
+		</main>
+		<footer>
+			<p>&copy; Lindsey 2023 University of South Carolina</p>
+		</footer>
+	</div>
+    <script src="script.js">
+</script>
+</body>
+</html>

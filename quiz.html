@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>CSCE Quiz</title>
+    <!--Lindsey Stephens, CSCE 102 section 14, February 25, 2023-->
+</head>
+<body>
+    <div id="content">
+        <header>
+            <h1>Lindsey Stephens</h1>
+        </header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class="center">Test Your Coding Skills!</h2>
+            <h4 class="center">See how well you know how to code with this quiz! Answer each question then click "submit" to see how you did! Good Luck!</h4>
+            <div class="flex">
+            <section class="questions">
+                <h2 class="centered">Questions</h2>
+            <p>
+                <label for="question-one">1. What coding language do you use for styling your websites?</label>
+                <select id="question-one">
+                    <option>A. Java</option>
+                    <option>B. JavaScript</option>
+                    <option>C. CSS</option>
+                    <option>D. HTML</option>
+                </select>
+            </p>
+            <p>
+                <label for="question-two">2. Which of the following would call a function in JavaScript?</label>
+                <select id="question-two">
+                    <option>A. function callFunction( )</option>
+                    <option>B. document.getElementById</option>
+                    <option>C. functionP.innerHTML</option>
+                    <option>D. if(functionP == "name")</option>
+                </select>
+            </p>
+            <p>
+                <label for="question-three">3. Which of the following HTML code would you use to make an unordered list?</label>
+                <select id="question-three">
+                    <option>A. tr and td</option>
+                    <option>B. ol and li</option>
+                    <option>C. ul and li</option>
+                    <option>D. section</option>
+                </select>
+            </p>
+                     <p>
+                <label for="question-four">4. Which of the following would you use to execute code under certain conditions?</label>
+                <select id="question-four">
+                    <option>A. paragraphs</option>
+                    <option>B. calling a function</option>
+                    <option>C. arrays</option>
+                    <option>D. if statements</option>
+                </select>
+            </p>
+         <p><button id="btn-continue" onclick="showScore()">Submit</button> </p>
+         </section>
+        <section class="results">
+            <h2>Score</h2>
+         <section id="result">
+         </section>
+         </section>
+         </div>
+        </main>
+        <footer>
+            <p>&copy; Lindsey 2023 University of South Carolina</p>
+        </footer>
+    </div>
+     <script src="script.js">
+</script>
+</body>
+</html>
